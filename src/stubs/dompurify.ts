@@ -1,0 +1,1 @@
+export default { sanitize: (x: string) => x };

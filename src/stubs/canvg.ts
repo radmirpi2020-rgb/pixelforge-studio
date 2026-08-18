@@ -1,0 +1,1 @@
+export default { fromString: () => Promise.reject(new Error('canvg недоступен')) };

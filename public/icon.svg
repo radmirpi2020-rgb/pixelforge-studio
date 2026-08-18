@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#25305a"/>
+      <stop offset="1" stop-color="#0d1017"/>
+    </linearGradient>
+    <linearGradient id="pix" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f8cff"/>
+      <stop offset="1" stop-color="#2f66e0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#4f8cff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#4f8cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <g fill="url(#pix)">
+    <!-- P -->
+    <rect x="96" y="96" width="56" height="280" rx="6"/>
+    <rect x="96" y="96" width="176" height="56" rx="6"/>
+    <rect x="216" y="96" width="56" height="140" rx="6"/>
+    <rect x="96" y="216" width="176" height="56" rx="6"/>
+    <!-- F -->
+    <rect x="320" y="96" width="56" height="280" rx="6"/>
+    <rect x="320" y="96" width="160" height="56" rx="6"/>
+    <rect x="320" y="200" width="120" height="56" rx="6"/>
+  </g>
+  <g fill="#9ec2ff">
+    <rect x="96" y="320" width="176" height="56" rx="6"/>
+    <rect x="216" y="208" width="56" height="64" rx="6" fill="#7aa8ff"/>
+    <rect x="320" y="248" width="120" height="56" rx="6" fill="#7aa8ff"/>
+  </g>
+</svg>
